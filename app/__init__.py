@@ -1,7 +1,7 @@
 """
 Main module for the application.
 """
-from src.main import app
+from app.main import app
 
 __all__ = [
     "app"
