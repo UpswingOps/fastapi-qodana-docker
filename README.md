@@ -2,6 +2,8 @@
 
 https://fastapi.tiangolo.com/
 
+Qodana report https://qodana.cloud/projects/3oJwO/reports/Zl2gx
+
 ## installation
 ```bash
 python -m pip install --upgrade pip
