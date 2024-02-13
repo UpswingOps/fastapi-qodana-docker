@@ -26,3 +26,14 @@ def read_item(item_id: int, q: Union[str, None] = None):
     :return:
     """
     return {"item_id": item_id, "q": q}
+
+
+@app.get("/users/{user_id}")
+def read_user(user_id: int, q: Union[str, None] = None):
+    """
+    This is the user path
+    :param user_id:
+    :param q:
+    :return:
+    """
+    return {"user_id": user_id, "q": q}
