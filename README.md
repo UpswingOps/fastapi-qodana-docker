@@ -4,17 +4,16 @@ https://fastapi.tiangolo.com/
 
 ## installation
 ```bash
-pip install -f requirements.txt
+python -m pip install --upgrade pip
 ```
 
-## run
 ```bash
-python main.py
+python -m pip install -r requirements.txt
 ```
-
-http://127.0.0.1:8000/items/5?q=somequery
 
 ## run server
 ```bash
 uvicorn main:app --reload
 ```
+
+http://127.0.0.1:8000/items/5?q=somequery
