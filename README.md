@@ -1,4 +1,6 @@
-# qodana-test
+[![Qodana](https://github.com/UpswingOps/fastapi-qodana-docker/actions/workflows/code_quality.yml/badge.svg)](https://github.com/UpswingOps/fastapi-qodana-docker/actions/workflows/code_quality.yml)
+
+# FastAPI Qodana Docker app
 
 https://fastapi.tiangolo.com/
 
