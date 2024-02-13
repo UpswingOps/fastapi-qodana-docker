@@ -1,5 +1,7 @@
 # qodana-test
 
+https://fastapi.tiangolo.com/
+
 ## installation
 ```bash
 pip install -f requirements.txt
