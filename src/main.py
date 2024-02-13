@@ -14,7 +14,7 @@ def read_root():
     This is the root path
     :return:
     """
-    return {"Hello": "World"}
+    return {"msg": "Hello World"}
 
 
 @app.get("/items/{item_id}")

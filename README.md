@@ -19,12 +19,16 @@ python -m pip install -r requirements.txt
 
 ## test / lint
 ```bash
-pylint main.py
+pylint src
+```
+
+```bash
+pytest tests/test.py
 ```
 
 ## run server
 ```bash
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 http://127.0.0.1:8000/items/5?q=somequery

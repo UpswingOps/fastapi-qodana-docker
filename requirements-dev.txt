@@ -1,2 +1,4 @@
 -r requirements.txt
 pylint==3.0.3
+pytest==8.0.0
+httpx==0.26.0
