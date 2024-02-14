@@ -5,8 +5,8 @@ setup(
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        "fastapi==0.109.2",
-        "uvicorn[standard]==0.27.1"
+        "fastapi==0.103.2",
+        "uvicorn[standard]==0.22.0"
     ],
     extras_require={
         "dev": [
