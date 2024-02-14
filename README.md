@@ -2,15 +2,20 @@
 
 # FastAPI Qodana Docker app
 
-https://fastapi.tiangolo.com/
+FastAPI docs: https://fastapi.tiangolo.com/
 
 Qodana report https://qodana.cloud/projects/3oJwO/reports/Zl2gx
 
-## installation
+## installation for ```setup.py```
 ```bash
 python -m pip install --upgrade pip
 ```
 
+```bash
+pip install .[dev]
+```
+
+## installation for ```requirements.txt```
 ```bash
 python -m pip install -r requirements-dev.txt
 ```
@@ -19,11 +24,12 @@ python -m pip install -r requirements-dev.txt
 python -m pip install -r requirements.txt
 ```
 
-## test / lint
+## lint
 ```bash
 pylint app
 ```
 
+## test
 ```bash
 pytest tests/test.py
 ```
@@ -33,6 +39,6 @@ pytest tests/test.py
 uvicorn app.main:app --reload
 ```
 
-http://127.0.0.1:8000/items/5?q=somequery
+Example request: http://127.0.0.1:8000/items/5?q=somequery
 
-http://127.0.0.1:8000/docs
+Swagger UI: http://127.0.0.1:8000/docs
